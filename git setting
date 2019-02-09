@@ -4,3 +4,13 @@ git config --global user.email johndoe@example.com
 генерация ssh ключа =>": ssh-keygen
 созданный в директории ключ из id_rsa.pub добавить на сервере для доступа.
 
+на пк
+$ cd myproject
+$ git init
+$ git add .
+$ git commit -m 'initial commit'
+$ git remote add origin git@gitserver:/opt/git/project.git
+$ git push origin master
+
+
+на удаленке сделать готовый репозиторий
