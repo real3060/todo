@@ -1,0 +1,6 @@
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+
+генерация ssh ключа =>": ssh-keygen
+созданный в директории ключ из id_rsa.pub добавить на сервере для доступа.
+
